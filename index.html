@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <title>My chat</title>
+  
+  <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+  <style>
+    body {
+      width: 400px; /* Set the desired width */
+      height: 900px; /* Set the desired height */
+    }
+  </style>
+
+</head>
+<body>
+
+ <script src="df-messenger.js"></script>
+
+<df-messenger
+  project-id="just-well-429210-n7"
+  agent-id="2a919d25-9307-442c-8095-e3313a419a1c"
+  language-code="en"
+  max-query-length="-1">
+  <div style="padding: 50px;">
+
+  </div>
+  <df-messenger-chat-bubble
+   chat-title="AutismChatApp">
+  </df-messenger-chat-bubble>
+</df-messenger>
+<style>
+  df-messenger {
+    z-index: 999;
+    position: fixed;
+    --df-messenger-font-color: #000;
+    --df-messenger-font-family: Google Sans;
+    --df-messenger-chat-background: #f3f6fc;
+    --df-messenger-message-user-background: #d3e3fd;
+    --df-messenger-message-bot-background: #fff;
+    bottom: 16px;
+    right: 16px;
+    padding-top: 100px;
+  }
+</style>
+
+
+</body>
+</html>
+
+
+
+

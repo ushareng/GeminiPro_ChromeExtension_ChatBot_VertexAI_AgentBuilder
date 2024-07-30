@@ -1,0 +1,28 @@
+/* styles.css */
+#my-extension-panel {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 300px;
+  height: 100%;
+  background-color: #f1f1f1;
+  border-left: 1px solid #ddd;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+  z-index: 9999; 
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#panel-content {
+  padding: 10px;
+}
+
+#panel-close {
+  margin-top: auto;
+  padding: 10px;
+  background-color: #ddd;
+  border: none;
+  cursor: pointer;
+}
+
