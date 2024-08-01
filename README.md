@@ -1,5 +1,4 @@
-# AutismBotChromeExtension
-Chrome Extension of the chatbot for Autism
+# Chrome Extension of the chatbot for Autism
 
 ##Demo video
 
