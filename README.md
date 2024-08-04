@@ -1,6 +1,5 @@
-# Chrome Extension of the chatbot for Autism
-
-##Demo video
+# Chrome Extension for Chatbot built using Vertex AI Agent Builder
+## Demo video
 
 
 
